@@ -3,36 +3,40 @@ body {
 }
 #title {
   background-color: #ff4c68;
-  height: 700px;
+  height: 600px;
   position: relative;
-  z-index: -2;
 }
 #pricing {
   margin-top: 130px;
   margin-bottom: 100px;
 }
 #features {
-  margin: 150px 0 130px 50px;
-  width: 1100px;
-  position: absolute;
-  left: 190px;
-  margin-bottom: 1000px;
+  /* margin: 150px 0 130px 50px; */
+  padding-top: 14%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 1500px;
+  position: relative;
+  left: 50px;
   z-index: 1;
   background-color: white;
 }
 .phone {
   width: 300px;
-  height: 620px;
+  height: 600px;
   transform: rotate(25deg);
   position: absolute;
-  z-index: -1;
-  margin-bottom: 100px;
-  margin-left: 700px;
+  margin-left: 540px;
 }
 #press {
   background-color: #ef8172;
   text-align: center;
   padding: 3%;
+}
+.nav-right {
+  position: relative;
+  left: 520px;
 }
 .main-card1 {
   width: 25%;
@@ -69,7 +73,7 @@ body {
 }
 
 .icon-container {
-  height: 270px;
+  height: 80px;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -94,9 +98,9 @@ h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 1.5rem;
-  height: 620px;
-  padding-top: 100px;
-  margin-top: 500px;
+  height: 600px;
+  padding-top: 130px;
+  padding-left: 30px;
 }
 .testimonial-img {
   position: relative;
@@ -127,7 +131,9 @@ h1 {
   padding-bottom: 4.5rem;
 }
 .nav-item {
-  padding: 0 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.1rem;
 }
 .icon {
   color: #ef8172;
