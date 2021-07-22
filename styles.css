@@ -3,28 +3,71 @@ body {
 }
 #title {
   background-color: #ff4c68;
+  height: 700px;
+  position: relative;
+  z-index: -2;
+}
+#pricing {
+  margin-top: 130px;
+  margin-bottom: 100px;
 }
 #features {
   margin: 150px 0 130px 50px;
   width: 1100px;
-  position: relative;
+  position: absolute;
   left: 190px;
+  margin-bottom: 1000px;
+  z-index: 1;
+  background-color: white;
+}
+.phone {
+  width: 300px;
+  height: 620px;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 100px;
+  margin-left: 700px;
 }
 #press {
   background-color: #ef8172;
   text-align: center;
   padding: 3%;
 }
+.main-card1 {
+  width: 25%;
+  margin: 0 20px 0 140px;
+  height: 25%;
+}
+.main-card2 {
+  width: 25%;
+  margin: 0 20px 0 20px;
+  height: 25%;
+}
+.pricing-h2 {
+  text-align: center;
+  color: #515e63;
+  margin-bottom: 50px;
+}
+.pricing-p {
+  text-align: center;
+  color: #515e63;
+  margin-bottom: 70px;
+}
+.main-card3 {
+  width: 25%;
+  margin: 0 20px 0 20px;
+  height: 25%;
+}
+.card-p {
+  color: #515e63;
+}
 .press-img {
   width: 200px;
   height: 50px;
   margin: 20px 30px 20px;
 }
-.phone {
-  width: 300px;
-  height: 620px;
-  transform: rotate(25deg);
-}
+
 .icon-container {
   height: 270px;
 }
@@ -53,11 +96,13 @@ h1 {
   font-size: 1.5rem;
   height: 620px;
   padding-top: 100px;
+  margin-top: 500px;
 }
 .testimonial-img {
   position: relative;
   left: 50px;
   width: 10%;
+  height: 10%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -94,3 +139,4 @@ h1 {
 .icon:hover {
   color: #ff4c68;
 }
+
